@@ -22,10 +22,10 @@ int main() {
 	printf("Input day name: ");
 	scanf("%s", &name);
 	
-if(strcmp(name, "sunday") == 0 || strcmp(name, "sun") == 0) { printf("1\n"); }
-else if(strcmp(name, "monday") == 0 || strcmp(name, "mon") == 0) { printf("2\n"); }
-else if(strcmp(name, "tuesday") == 0 || strcmp(name, "tue") == 0) { printf("3\n"); }
-else if(strcmp(name, "wednesday") == 0 || strcmp(name, "wed") == 0) { printf("4\n"); }	
+	if(strcmp(name, "sunday") == 0 || strcmp(name, "sun") == 0) { printf("1\n"); }
+	else if(strcmp(name, "monday") == 0 || strcmp(name, "mon") == 0) { printf("2\n"); }
+	else if(strcmp(name, "tuesday") == 0 || strcmp(name, "tue") == 0) { printf("3\n"); }
+	else if(strcmp(name, "wednesday") == 0 || strcmp(name, "wed") == 0) { printf("4\n"); }	
 	else if(strcmp(name, "thursday") == 0 || strcmp(name, "thu") == 0) { printf("5\n"); }
 	else if(strcmp(name, "friday") == 0 || strcmp(name, "fri") == 0) { printf("6\n"); }
 	else if(strcmp(name, "saturday") == 0 || strcmp(name, "sat") == 0) { printf("7\n"); }
