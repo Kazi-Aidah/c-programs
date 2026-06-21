@@ -1,4 +1,4 @@
-// input lowercase, get uppercase & vice versa
+// input lowercase alphabet, get uppercase & vice versa
 #include<stdio.h>
 #include<ctype.h>
 int main() {
